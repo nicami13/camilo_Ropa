@@ -9,7 +9,7 @@ namespace Core.entities
     {
         public string ? Descripcion {get; set;}
 
-        public ICollection<Prenda> Prendasc {get; set;} 
+        public ICollection<Prenda> Prendas {get; set;} 
         
     }
 }

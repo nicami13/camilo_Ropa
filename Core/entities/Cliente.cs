@@ -16,6 +16,7 @@ namespace Core.entities
         public DateTime Fecharegistro { get; set; }
 
         public ICollection<Orden> Ordenes {get; set;}
+        public ICollection<Venta> Ventas {get; set;}
 
     }
 }

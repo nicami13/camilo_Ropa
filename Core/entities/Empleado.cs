@@ -16,6 +16,8 @@ namespace Core.entities
         public Cargo Cargo { get; set; }
 
         public ICollection<Orden> Ordenes {get; set;}
+
+        public ICollection<Venta> Ventas {get; set;}
         
 
         
