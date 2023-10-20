@@ -10,7 +10,7 @@ namespace Core.entities
         public int IdPrenda { get; set; }
         public Prenda? Prenda { get; set; }
         public int IdColor { get; set; }
-        public Color?  Color { get; set; }
+        public Colores?  Color { get; set; }
         public int IdOrden { get; set; }
         public Orden ? Orden { get; set; }
         public int IdEstado { get; set; }

@@ -16,7 +16,7 @@ namespace Infrastructure.Data
         public DbSet<Cargo> Cargos {get; set;}
         
         public DbSet<Cliente> Cliente {get; set;}
-        public DbSet<Color> Colores {get; set;}
+        public DbSet<Colores> Colores {get; set;}
         public DbSet<DatalleOrden> DatalleOrdenes {get; set;}
         public DbSet<Departamento> Departamentos {get; set;}
         public DbSet<DetalleVenta> DetalleVentas {get; set;}

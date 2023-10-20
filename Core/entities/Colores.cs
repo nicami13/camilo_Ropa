@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Core.entities
 {
-    public class Color:BaseEntity
+    public class Colores:BaseEntity
     {
         public string ? Descripcion {get; set;} 
 

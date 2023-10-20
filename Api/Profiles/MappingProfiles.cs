@@ -14,7 +14,7 @@ namespace Api.Profiles
         public MappingProfiles(){
             CreateMap<Cargo,CargoDto>().ReverseMap();
             CreateMap<Cliente,ClienteDto>().ReverseMap();
-            CreateMap<Color,ColorDto>().ReverseMap();
+            CreateMap<Colores,ColorDto>().ReverseMap();
             CreateMap<DatalleOrden,DetalleOrdenDto>().ReverseMap();
             CreateMap<DetalleVenta,DetalleVentaDto>().ReverseMap();
             CreateMap<Empleado,EmpleadoDto>().ReverseMap();

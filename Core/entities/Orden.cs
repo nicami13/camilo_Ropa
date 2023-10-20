@@ -5,11 +5,8 @@ using System.Threading.Tasks;
 
 namespace Core.entities
 {
-    public class Orden
+    public class Orden:BaseEntity
     {
-        public int IdOrden { get; set; }
-        public DatalleOrden ? DetalleOrden { get; set; }
-
         public int IdEmpleado { get; set; }
         public Empleado ? Empleado { get; set; }
         public int IdCliente { get; set; }

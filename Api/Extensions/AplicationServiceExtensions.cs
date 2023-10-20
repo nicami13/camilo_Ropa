@@ -38,9 +38,10 @@ namespace Api.Extensions
             }
         });
     }
-    public static void AddAplicationServices(this IServiceCollection services){
-        services.AddScoped<IUnitOfWork,UnitOfWork>();
-    }
+    // public static void AddAplicationServices(this IServiceCollection services){
+    //     services.AddScoped<IUnitOfWork,UnitOfWork>();
+    // }
         
-    }
+    // }
+}
 }

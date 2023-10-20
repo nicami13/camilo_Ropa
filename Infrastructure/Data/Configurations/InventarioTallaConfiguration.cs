@@ -10,6 +10,8 @@ namespace Persistencia.Data.Configuration
         {
             builder.ToTable("InventarioTalla");
 
+            builder.HasKey(e => e.Id);
+
                 builder.HasOne(p => p.Inventario)
                     .WithMany(e => e.InventarioTallas)
                     .HasForeignKey(f => f.IdInventario);

@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Persistencia.Data.Configuration
 {
-    public class ColorConfiguration : IEntityTypeConfiguration<Color>
+    public class ColoresConfiguration : IEntityTypeConfiguration<Colores>
     {
-        public void Configure(EntityTypeBuilder<Color> builder)
+        public void Configure(EntityTypeBuilder<Colores> builder)
         {
             builder.ToTable("Color");
 

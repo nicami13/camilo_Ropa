@@ -10,9 +10,11 @@ namespace Persistencia.Data.Configuration
         {
             builder.ToTable("Orden");
 
+            builder.HasKey(e=> e.Id);
+
             builder.HasOne(p => p.Empleado)
                 .WithMany(e => e.Ordenes)
-                .HasForeignKey(f => f.IdOrden);
+                .HasForeignKey(f => f.IdEmpleado);
             
             builder.HasOne(p => p.Cliente)
                 .WithMany(e => e.Ordenes)

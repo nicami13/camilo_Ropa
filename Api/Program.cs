@@ -16,8 +16,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.COnfigureCors();
 builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
 
-builder.Services.AddDbContext<RopaContext>(options=>{
- string ConnectingString=builder.Configuration.GetConnectionString("MysqlConex");
+builder.Services.AddDbContext<RopaContext>(options=>
+{
+ string ConnectingString= builder.Configuration.GetConnectionString("MysqlConex");
  options.UseMySql(ConnectingString, ServerVersion.AutoDetect(ConnectingString));
 });
 
